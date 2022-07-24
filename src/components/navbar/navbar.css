@@ -16,6 +16,11 @@
     align-items: center;
     justify-content: space-between;
 }
+ 
+.navContainer .logoAnchor{
+                text-decoration: none;
+                color : #fff;
+            }
 .logo {
     font-weight : 500;
     

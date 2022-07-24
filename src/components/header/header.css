@@ -10,7 +10,9 @@
   width: 100%;
   max-width: 1024px;
   margin: 20px 0px 100px 0px;
-  /* position: relative; */
+}
+.headerContainer.listMode {
+  margin: 20px 0px 40px 0px;
 }
 
 .headerList {

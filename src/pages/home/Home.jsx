@@ -1,3 +1,4 @@
+import { Feature } from '../../components/featured/Feature';
 import { Header } from '../../components/header/Header';
 import { Navbar } from '../../components/navbar/Navbar';
 import './home.css';
@@ -7,6 +8,10 @@ export const Home = () => {
     <div>
         <Navbar />
         <Header />
+        <div className="homeContainer">
+          <Feature />
+          <Feature />
+        </div>
     </div>
   )
 }
