@@ -4,6 +4,8 @@ import { Header } from '../../components/header/Header';
 import { Navbar } from '../../components/navbar/Navbar';
 import { PropertyList } from '../../components/propertyList/propertyList';
 import './home.css';
+import { MailList } from '../../components/mailList/MailList';
+import { Footer } from '../../components/footer/Footer';
 
 export const Home = () => {
   return (
@@ -15,6 +17,8 @@ export const Home = () => {
           <h1 className='homeTitle'>Browse by property type</h1>
           <PropertyList />
           <FeaturedProperties />
+          <MailList />
+          <Footer />
         </div>
     </div>
   )
